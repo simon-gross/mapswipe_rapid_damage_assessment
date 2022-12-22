@@ -1,10 +1,3 @@
-"""
-Written by Simon Groß for the Bachelor's Thesis:
-    Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment:
-    The Case of the 2021 Haiti Earthquake
-    
-"""
-
 from sklearn.metrics import cohen_kappa_score as ckap
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
