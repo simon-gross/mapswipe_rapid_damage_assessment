@@ -6,5 +6,7 @@ Maps were created in QGIS. QGIS files and resp. data can be found in the "Maps" 
 
 # Installation
 For installation create a new anaconda environment with the provided .yml file.
-Run the following command:
-    conda env create --name new_env -f path/to/rapid_damage_assessment_installation.yml
+Direct into the directory of this readme file and run the following command:
+```
+    conda env create -f rapid_damage_assessment_installation.yml
+```
