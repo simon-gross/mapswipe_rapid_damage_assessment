@@ -23,7 +23,7 @@ if 'GLAD' in os.listdir('.'):
 def output_csv(df, name="temp.csv"):
     df.to_csv(out_path+name)
 
-out_path = "D:/Bachelorarbeit/document/"
+out_path = "./"
 
 params = {
     # bad image answers are removed, maybe answers get split in damage and no damage
